@@ -353,3 +353,147 @@ html {
         text-decoration: underline;
         color: #000000;
       }
+
+      .implement {
+        background: url(../assets/img/background-2.jpg) no-repeat center;
+        background-size: cover;
+      }
+      
+      .implement_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1600px;
+        height: 744px;
+      }
+      
+      .implement_item {
+        margin-top: 319px;
+        margin-bottom: 339px;
+        margin-right: 378px;
+        align-items: center;
+        height: 184px;
+        width: 407px;
+      }
+      
+      .implement_h2{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      
+      .implement_p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        margin-bottom: 30px;
+      }
+      
+      .implement_button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+      }
+      
+      .implement_submit_button {
+        padding: 15px 47px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #00AFDB;
+        border: 0;
+        margin-bottom: 183px;
+      }
+      
+      .implement_submit_button:hover, .implement_submit_button:focus, .implement_submit_button:active {
+        background: #0b86a5;
+      }
+      
+      .implement_img {
+        margin: 120px 139px 140px 269px;
+      }
+    
+      .subscribe {
+        background: url(../assets/img/subscribe.jpg) no-repeat center;
+        background-size: cover;
+      }
+      
+      .subscribe_wrapper {
+        width: 1600px;
+        height: 598px;
+      }
+      
+      .subscribe_title {
+        padding-top: 217px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0px 560px 30px 641px;
+      }
+      
+      .subscribe_email {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 90px;
+      }
+      
+      .email_form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      
+      #email {
+        width: 340px;
+        height: 46px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        border-radius: 0px;
+        border: 0;
+      }
+      
+      .email::placeholder { padding: 14px 277px 12px 24px; }
+      .email::-moz-placeholder { margin: 14px 277px 12px 24px; }
+      .email::-webkit-input-placeholder { margin: 14px 277px 12px 24px; }
+      .email:-ms-input-placeholder { margin: 14px 277px 12px 24px; }
+      .email::-ms-input-placeholder { margin: 14px 277px 12px 24px; }
+      
+      .button_send_email {
+        width: 66px;
+        height: 46px;
+        left: 0px;
+        top: 0px;
+        background: #00AFDB;
+        border-radius: 0px;
+        border: 0;
+        margin-right: 10px;
+        background: #00AFDB url(../assets/img/email-check.svg) no-repeat center;
+        background-size: 19px 16.52px;
+      }
+      
+      .button_send_email:hover, .button_send_email:focus, .button_send_email:active {
+        background: #0b86a5 url(../assets/img/email-check.svg) no-repeat center;
+      }
+      
+      input[type="email"] {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        display: flex;
+        align-items: flex-end;
+        color: #373737;
+      }
